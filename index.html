@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Basic ChatBot</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="stars"></div>
+
+<div class="chat-container">
+
+    <div class="chat-header">
+        <i class="fas fa-robot"></i>
+        <h2>Basic ChatBot</h2>
+    </div>
+
+    <div class="chat-box" id="chatBox">
+        <div class="message bot">
+            <div class="bubble">
+                👋 Hi! I am BasicBot. How can I help you?
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-input">
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Type your message..."
+        >
+        <button onclick="sendMessage()">
+            <i class="fas fa-paper-plane"></i>
+        </button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
